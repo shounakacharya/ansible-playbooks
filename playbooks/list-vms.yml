@@ -1,0 +1,6 @@
+---
+- hosts: webservers
+  remote_user: root
+  tasks:
+    - name: list-vms
+      shell: /usr/bin/virsh list
