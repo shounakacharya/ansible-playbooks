@@ -1,5 +1,5 @@
 ---
-- hosts: webservers
+- hosts: kvm
   remote_user: root
   tasks:
     - name: list-vms
